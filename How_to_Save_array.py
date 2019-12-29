@@ -20,10 +20,15 @@ import numpy as np
 # print(a)
 
 
-a = np.array([10, 20, 30, 40])
-b = np.arange(4)
-c = a ** b
-d
-print(c)
+#a = np.array([[10, 20, 30, 40], [1, 2, 3, 4],
+#              [5, 6, 7, 8], [11, 22, 33, 44]])
+#b = np.arange(16).reshape((4, 4))
 
+#d = np.dot(a, b)  # 矩阵运算
+#d = a * b  # 普通运算
+#print(d < 20)
+#print(d)
 
+#a = np.random.random((2, 4))
+#print(np.sum(a, axis=1))
+#print(np.min(a, axis=0))
