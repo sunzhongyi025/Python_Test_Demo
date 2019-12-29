@@ -46,3 +46,22 @@ print('------------------')
 #print(a.T)  # 行列变换
 #print(np.clip(a, 10, 11)) # 小于10的全是10，大于10的全是11
 
+#print('Index')
+#A = np.arange(3,15).reshape(3,4)
+#print(A)
+#print(A[2])# 索引出行数
+#print(A[1,:])# ：代表所有数
+#print('------')
+#for row in A:
+#    print(row)
+#print('------')
+#for col in A.T:
+#    print(col)
+#A.flattern()# 把矩阵A变成一行数
+#for item in A.flat:   #
+#    print(item)
+#print('------------------')
+
+
+
+
